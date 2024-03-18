@@ -23,8 +23,5 @@ public class BookstoreController {
         return new Content("some content");
     }
 
-//    @PostMapping("/signup")
-//    public ResponseEntity<String> createAccount(@RequestBody Account signUpFormData){
-//        return ResponseEntity.ok("createAccount() : "+signUpFormData.getEmail());
-//    }
+
 }
