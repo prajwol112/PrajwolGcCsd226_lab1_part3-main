@@ -15,10 +15,8 @@ public class SigninController {
     }
 
     // signinForm is just here for documentation, its not used in the app
-    @GetMapping(path = "/signinForm")
-    public String signinForm() {
-//        return "<div id=\"hello\" hx-swap-oob=\"true\">Hello</div>\n"
-//                + "<div id=\"world\" hx-swap-oob=\"true\">World</div>";
+    @GetMapping(path = "/signingForm")
+    public String signingForm() {
 
         return "<form hx-post=\"/signin\" hx-target=\"this\" hx-swap=\"outerHTML\">\n" +
                 "  <div>\n" +
